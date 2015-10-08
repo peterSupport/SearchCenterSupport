@@ -1,6 +1,5 @@
 # Search Center(1.5)
 
-English version is not ready yet.  
 한국어를 사용하신다면 아래에서 한국어 버전을 선택해 주세요.  
 If you need support, please contact the developer.  
   
