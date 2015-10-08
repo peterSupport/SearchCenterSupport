@@ -83,7 +83,7 @@ The search action marked with bookmark shaped icon is the search action used lat
 ## Adding a New Search Action
 ### Gestures
 ![addVC](http://i.imgur.com/iBcoY7a.png)  
-This scene will be presented when you creating a new search action or editing an existing one.  
+This scene will be presented when you are creating a new search action or editing an existing one.  
 You can add a new search action by tapping the "+" button on the top right hand corner of the main screen. This scene has a few gestures you can use conveniently.  
 * Tap in the blank area: Dismisses the keyboard.  
 * Double-Tap in the blank area: Presents URL Templates.  
