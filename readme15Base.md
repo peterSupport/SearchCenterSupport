@@ -60,7 +60,7 @@ Done Button on the keyboard launches either the default search action or the con
 Default actions and continuous actions(the search action used last time) are marked with star-shaped icon and bookmark-shaped icon, respectively. The icon under the title "Search Center" in the Top Area represents the search action that will be launched when you hit the done button on the keyboard.  
 
 ### Drag&Drop
-![DragAndDropb](http://i.imgur.com/xXPwFJC.png)
+![DragAndDropb](http://i.imgur.com/xXPwFJC.png)  
 Long tapping one of your search actions initiates Drag&Drop mode. Using Drag&Drop gesture, you can rearrange your search actions easily.  
 While you are dragging one of your search actions, Drop Zone will be presented over the top area.  
 Drop Zone has four sections in which you can "Drop" the icon under your finger to launch the action of the area.  For example, if you dropped Wikipedia search action in the Delete section of the Drop Zone, Wikipedia search action will be deleted from your search actions collection.  
