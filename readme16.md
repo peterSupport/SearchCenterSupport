@@ -1,5 +1,5 @@
-# Search Center(1.5)
-
+# Search Center 1.6 - 작성중
+--- 이 문서는 아직 작성중입니다. 내용이 맞지 않을 수 있습니다. ---
 If you can't read Korean, Please follow the link below to get support in English.  
 [Link](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme15Base.md)  
 
