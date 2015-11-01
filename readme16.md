@@ -100,7 +100,7 @@ If you can't read Korean, Please follow the link below to get support in English
 각종 특수 기능이나 기본적인 검색 주소들을 간편하게 입력하고 수정할 수 있는 기능입니다.     
 ![temp01](http://i.imgur.com/eD4D85q.png)  
 
-화면의 빈 공간을 더블탭하거나 URL 입력창에서 하단의 Templates 버튼을 누르면 불러올 수 있습니다.  
+화면의 빈 공간을 더블탭하거나 URL 입력창에서 하단의 Templates 버튼을 누르면 불러올 수 있습니다. 또한 우측 상단의 목록 아이콘을 탭해도 불러올 수 있습니다.  
 새 검색 액션을 만들 때 자동으로 한 번 표시됩니다.  
 
 ![temp02](http://i.imgur.com/vBEpw1o.png)  

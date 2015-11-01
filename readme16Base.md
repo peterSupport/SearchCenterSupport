@@ -1,11 +1,8 @@
 # Search Center 1.6
---- This Article is not complete yet.  ---
 
 한국어를 사용하신다면 아래에서 한국어 버전을 선택해 주세요.  
+[한국어 버전](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme16.md)  
 If you need support, please contact the developer.  
-  
-
-[Korean Version](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme15.md)  
 [Contact](mailto:searchcenterapp@gmail.com)  
 
 Thanks!
@@ -14,29 +11,15 @@ Thanks!
 **It is possible that your search history remains within this app even though you are using privacy mode in Safari. You can swipe and delete each search history, or you may set 0 for the amount of history term to save. There is a button on the side menu that deletes the search history.**
 
 ## Release Note
-Added:  
-URL Templates list has a search bar. Please swipe down a bit the Templates list to reveal the scroll bar.  
-Tap once in the background of the screen where you add/edit search actions, and the keyboard will be dismissed.  
-Tap twice fast in the background of the add/edit screen, and the Templates list will be presented.  
-Default Search Action Marker and Continuous Search Action Marker: Default Action will be marked with a bookmark icon. Continuous Action will be marked with a star shaped icon.  
-Drop Zone: You can perform several actions dropping icons on Drop Zone. Drop Zone includes Setting the action icon as Default Action, Editing, Deleting, Duplicating the Search Action. Basically it is “Edit Mode”.  
-You can fetch icons from the existing search actions when creating/editing search actions.  
-External Keyboard Shortcuts: Keyboard Shortcuts are supported in iOS 8 and iOS 9. In iOS 9, you can see the list of shortcuts available by pressing and holding the command key.  
-* Shortcuts work in most situations, except when you are using keyboard in in-app browser typing something.  
-
-Action Added:  
-Send an URL to Instapaper app. You can add this action from the Templates list.  
-Open an URL with Chrome for iOS. You can add this action from the Templates list.  
-Clip an URL with Evernote for iOS. You can add this action from the Templates list.  
-Parse a sentence with Fantastical 2 for iOS. You know what to do.   
-Open a specific date in Fantastical 2 for iOS.  
-  
-Also, some more actions added. Check them out in the Templates list.  
-
-
-Changed:  
-Google maps action changed so that you can easily come back to Search Center in iOS 8. You can edit the corresponding action or add one from the Templates list.  
-Long tapping in the Top Area of the main screen launch the opposite action from what “Done Button” does. For example, if you set options for the done button to launch Continuous Search, long tapping in the top area will launch Default Search Action.  
+- App Icon Changed  
+- Bluetooth Keyboard Shortcut: Normal Search, Continuous Search, Close the Result, Designated Search Actions for Numeric Keys, Various Option Toggles, etc..  
+- Buttons to Change Icon Size are Added  
+- iPad Pro Support  
+- 3D Touch: Peek & Pop, Quick Action  
+- You can Clear the Main Search Term Textbox with a Left Swipe Gesture.  
+- Today Widget Added  
+- Icon Size is Increased for 4.7 inch Devices  
+- Various Bug Fixes and Improvements  
 
 ## Basic Gestures
 ![MainView01](http://i.imgur.com/vgeUgsn.png)
@@ -55,6 +38,7 @@ Horizontal Swipe: Moves cursor in the search term text field.
 Vertical Swipe: Scrolls through the search actions.  
 Horizontal Swipe: Shows/Hides side menu.  
 Long-Tap on Search Action: You can Drag&Drop icons. Drop Zone will be displayed where you can drop the icon to do some actions with the search action.  
+Swipe Left: Clears the search term text field if side menu is not displayed.  
 
 ### Done Button on the Keyboard
 Done Button on the keyboard launches either the default search action or the continuous search action. You can set which on the side menu.  
@@ -82,8 +66,7 @@ The search action set as default will be marked with star shaped icon. Default s
 The search action marked with bookmark shaped icon is the search action used lately. If you have set options accordingly, pressing done button will launch this search action repeatedly, and continuously.  
 
 ## Adding a New Search Action
-### Gestures
-![addVC](http://i.imgur.com/iBcoY7a.png)  
+![addVC](http://i.imgur.com/bXrShtl.png)  
 This scene will be presented when you creating a new search action or editing an existing one.  
 You can add a new search action by tapping the "+" button on the top right hand corner of the main screen. This scene has a few gestures you can use conveniently.  
 * Tap in the blank area: Dismisses the keyboard.  
@@ -91,7 +74,7 @@ You can add a new search action by tapping the "+" button on the top right hand 
 * Horizontal Swipe: Moves the cursor in the text field.  
 
 ### Set an Icon for the Search Action
-![addnewicon](http://i.imgur.com/WHXAcOM.png)  
+![addnewicon](http://i.imgur.com/eSRZelH.png)  
 You can set an icon for the search action by tapping the black rectangle on the top of the screen. 
 * Photo Library: You can select an icon from your photo collection.  
 * Image URL: Copy an URL of the image you like, and paste it here to get the image from the internet.  
@@ -110,12 +93,13 @@ The link would look like this:
 
 ### URL Template
 You may use your own URL for the search action, or choose one of the templates if you are not sure.  
-![temp01](http://i.imgur.com/IMofIq0.png)  
+![temp01](http://i.imgur.com/BjvZISY.png)  
 
-Please either tap twice fast in blank area of the scene above, or press the Templates button on the bottom to see the URL Templates screen.  
+Please either tap twice fast in blank area of the scene above, or press the Templates button on the bottom to see the URL Templates screen.  Also, press the list button on the top right hand corner next to the save button to call the teamplates screen.  
+URL Templates will be displayed automatically when you are creating a new search action.  
+
 ![temp02](http://i.imgur.com/AwGWWoX.png)  
 Select one of the examples, set an icon(or not), edit the title and URL if you'd like, and press the save button on the top right hand corner of the screen.  
-If you swipe down a little bit, you will find the search bar.  
 
 If you'd like to suggest some new features or request new examples, please contact the developer.  
 **Not all requests can be implemented if there is no API, it is not permitted by the provider, or etc..**  
@@ -132,28 +116,23 @@ Google search URL is `http://www.google.com/search?q={query}` and the `{query}` 
 	
 The plus sign represents a white space which is very useful when manipulating URLs.  Now if you save this search action with the edited URL above, you just need to type in the name of the cuisine. Search Center will present you with the search result of `spagetti recipe`, for instance.  
 
+## 3D Touch
+Peek & Pop and Quick Action is supported on the 3D Touch-Enabled devices.  
+You can Peek the search result by pressing hard on a search action.  If you press harder, the search result will Pop into the full screen search result.  
+![PeeknPop](http://i.imgur.com/NNnhOlA.jpeg)  
+홈 스크린에서 앱 아이콘을 세게 누르면 Quick Action을 사용할 수 있습니다. Quick Action은 좌측 메뉴에서 선택할 수 있습니다.  
+![QuickAction](http://i.imgur.com/xDtXp1t.jpeg) 
+
 ## URL Scheme
 If you use Launch Center or Luancher, or an similar app, you may use `searchcenter:///`.
 
 ## Bluetooth Keyboard Shortcuts
-![Shortcut01](http://i.imgur.com/XFdhXDQ.png)  
+![Shortcut01](http://i.imgur.com/ffkdTPx.png)  
 ![Shortcut02](http://i.imgur.com/ESEmqs2.png)  
 
 In iOS 9, you will be presented with the list of shortcuts you may use if you press and hold command key. Basically, `command + w` will dismiss the search result.  
 
 **If you have used keyboard in the web search result, keyboard shortcuts would not work**
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
