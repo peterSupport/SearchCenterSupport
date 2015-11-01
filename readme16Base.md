@@ -120,7 +120,7 @@ The plus sign represents a white space which is very useful when manipulating UR
 Peek & Pop and Quick Action is supported on the 3D Touch-Enabled devices.  
 You can Peek the search result by pressing hard on a search action.  If you press harder, the search result will Pop into the full screen search result.  
 ![PeeknPop](http://i.imgur.com/NNnhOlA.jpeg)  
-홈 스크린에서 앱 아이콘을 세게 누르면 Quick Action을 사용할 수 있습니다. Quick Action은 좌측 메뉴에서 선택할 수 있습니다.  
+Quick Actions are accessible by pressing hard the app icon from the home screen. You can choose the quick actions from the side menu.  
 ![QuickAction](http://i.imgur.com/xDtXp1t.jpeg) 
 
 ## URL Scheme
