@@ -25,7 +25,7 @@ Thanks!
 ![MainView01](http://i.imgur.com/vgeUgsn.png)
 
 ### Top Area
-Tap: Clears the search term text field.  
+Tap: Scrolls to either the default search action or the last used search action according to the setting.   
 Double-Tap: Shows/Hides search terms used in past.  
 Double-Tap & Hold: Puts the last used search term in the text field.  
 Long-Tap: Launches either default search action or continuous search action that is opposite from the corresponding setting.  
