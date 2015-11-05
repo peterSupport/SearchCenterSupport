@@ -48,6 +48,11 @@ If you can't read Korean, Please follow the link below to get support in English
 완료 버튼의 기능은 좌측 메뉴에서 설정할 수 있습니다.  
 지금 완료 버튼을 누르면 실행될 검색은 상단 영역에 아이콘으로 표시됩니다.
 
+## 웹 검색 결과 제스쳐
+![sfvc](http://i.imgur.com/W7cC2ro.png)  
+![wkwebview](http://i.imgur.com/XPwdqdo.png)  
+웹 검색 결과 화면입니다. 왼쪽 하단 1/3 영역의 화면 가장자리를 왼쪽에서 오른쪽으로 스와이프하면 검색 결과가 닫힙니다.  
+
 ### 드래그 앤 드롭
 ![DragAndDrop](http://i.imgur.com/QlrlfRK.png)  
 검색 액션의 위치를 바꿀 수 있습니다. 검색 액션 영역에서 옮길 검색 액션을 롱탭하면 이동을 할 수 있습니다. 

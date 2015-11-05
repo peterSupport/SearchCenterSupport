@@ -44,6 +44,11 @@ Swipe Left: Clears the search term text field if side menu is not displayed.
 Done Button on the keyboard launches either the default search action or the continuous search action. You can set which on the side menu.  
 Default actions and continuous actions(the search action used last time) are marked with star-shaped icon and bookmark-shaped icon, respectively. The icon under the title "Search Center" in the Top Area represents the search action that will be launched when you hit the done button on the keyboard.  
 
+## Web Search Result Gesture
+![sfvc](http://i.imgur.com/W7cC2ro.png)  
+![wkwebview](http://i.imgur.com/XPwdqdo.png)  
+Swiping the left bottom 1/3 area from the left edge into the screen will close the web search result scene.  
+
 ### Drag&Drop
 ![DragAndDropb](http://i.imgur.com/xXPwFJC.png)
 Long tapping one of your search actions initiates Drag&Drop mode. Using Drag&Drop gesture, you can rearrange your search actions easily.  
