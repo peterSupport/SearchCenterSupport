@@ -45,8 +45,8 @@ Done Button on the keyboard launches either the default search action or the con
 Default actions and continuous actions(the search action used last time) are marked with star-shaped icon and bookmark-shaped icon, respectively. The icon under the title "Search Center" in the Top Area represents the search action that will be launched when you hit the done button on the keyboard.  
 
 ## Web Search Result Gesture
-![sfvc](http://i.imgur.com/8XkHlmM.png)  
-You can dismiss the web search result screen by swiping down on either left or right side edge of the screen.  
+![sfvc](http://i.imgur.com/hBoM5Gr.png)  
+You can dismiss the web search result screen by swiping down on either left or right side bottom 1/3 edge of the screen.  
 
 ### Drag&Drop
 ![DragAndDropb](http://i.imgur.com/xXPwFJC.png)
