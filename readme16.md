@@ -1,4 +1,4 @@
-# Search Center 1.6
+# Search Center 1.6(작성중)
 
 If you can't read Korean, Please follow the link below to get support in English.  
 [Link](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme16Base.md)  

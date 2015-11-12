@@ -1,4 +1,4 @@
-# Search Center 1.6
+# Search Center 1.6(Editing)
 
 한국어를 사용하신다면 아래에서 한국어 버전을 선택해 주세요.  
 [한국어 버전](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme16.md)  
