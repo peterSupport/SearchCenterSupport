@@ -8,27 +8,27 @@ If you need support, please contact the developer.
 Thanks!
 
 ## Note
-**It is possible that your search history remains within this app even though you are using privacy mode in Safari. You can swipe and delete each search history, or you may set 0 for the amount of history term to save. There is a button on the side menu that deletes the search history.**
+**It is important that your search history remains within this app even though you are using privacy mode in Safari. You can swipe and delete each search history, or you may set 0 for the amount of search terms to be saved. There is a button on the side menu that deletes the search history.**
 
 ## Release Note
-- App Icon Changed  
-- Bluetooth Keyboard Shortcut: Normal Search, Continuous Search, Close the Result, Designated Search Actions for Numeric Keys, Various Option Toggles, etc..  
-- Buttons to Change Icon Size are Added  
-- iPad Pro Support  
-- 3D Touch: Peek & Pop, Quick Action  
-- You can Clear the Main Search Term Textbox with a Left Swipe Gesture.  
-- Today Widget Added  
-- Icon Size is Increased for 4.7 inch Devices  
-- Various Bug Fixes and Improvements  
+- App Icon Changed
+- Bluetooth Keyboard Shortcut: Normal Search, Continuous Search, Close the Result, Designated Search Actions for Numeric Keys, Various Option Toggles, etc..
+- Buttons to Change Icon Size are Added
+- iPad Pro Support
+- 3D Touch: Peek & Pop, Quick Action
+- You can Clear the Main Search Term Textbox with a Left Swipe Gesture.
+- Today Widget is Added
+- Search Term Suggestions
+- Swipe from Left Edge of the Screen to Close Search Result with One Hand
+- Various Bug Fixes and Improvements
 
 ## Basic Gestures
 ![MainView01](http://i.imgur.com/vgeUgsn.png)
 
 ### Top Area
-Tap: Scrolls to either the default search action or the last used search action according to the setting.   
-Double-Tap: Shows/Hides search terms used in past.  
-Double-Tap & Hold: Puts the last used search term in the text field.  
-Long-Tap: Launches either default search action or continuous search action that is opposite from the corresponding setting.  
+Tap: Brings the text from either clipboard or the search history, if search field is empty.     
+Double-Tap: Scrolls to either the default search action or the search action you used last by the corresponding setting.    
+Long-Tap: Launches either default search action or the search action you used last that is opposite from the corresponding setting.  
 Horizontal Swipe: Moves cursor in the search term text field.  
 
 ### Search Term Text Field
@@ -36,17 +36,21 @@ Horizontal Swipe: Moves cursor in the search term text field.
 
 ### Search Action Area
 Vertical Swipe: Scrolls through the search actions.  
-Horizontal Swipe: Shows/Hides side menu.  
 Long-Tap on Search Action: You can Drag&Drop icons. Drop Zone will be displayed where you can drop the icon to do some actions with the search action.  
+3D Touch: Peeks the search result.  
 Swipe Left: Clears the search term text field if side menu is not displayed.  
+Swipe Right: Brings the text from either clipboard or the search history, if search field is empty.  
+Left-Edge Swipe: Brings the left side menu. You may use the button on the top left hand corner to do the same thing.  
+Right-Edge Swipe: Brings the search history.  
 
 ### Done Button on the Keyboard
 Done Button on the keyboard launches either the default search action or the continuous search action. You can set which on the side menu.  
 Default actions and continuous actions(the search action used last time) are marked with star-shaped icon and bookmark-shaped icon, respectively. The icon under the title "Search Center" in the Top Area represents the search action that will be launched when you hit the done button on the keyboard.  
 
 ## Web Search Result Gesture
-![sfvc](http://i.imgur.com/hBoM5Gr.png)  
-You can dismiss the web search result screen by swiping down on either left or right side bottom 1/3 edge of the screen.  
+![sfvc](http://i.imgur.com/OUfVPlj.png)  
+You can dismiss the web search result or in-app dictionary by left-edge swiping of the 1/3 bottom of the screen.  You may use the close/done button instead.  
+Other than web search result, you may use the entire left edge of the screen to close the current result screen.  
 
 ### Drag&Drop
 ![DragAndDropb](http://i.imgur.com/xXPwFJC.png)
@@ -74,7 +78,7 @@ The search action marked with bookmark shaped icon is the search action used lat
 This scene will be presented when you creating a new search action or editing an existing one.  
 You can add a new search action by tapping the "+" button on the top right hand corner of the main screen. This scene has a few gestures you can use conveniently.  
 * Tap in the blank area: Dismisses the keyboard.  
-* Double-Tap in the blank area: Presents URL Templates.  
+* Double-Tap in the blank area: Presents URL Templates. You may use the list button on the top right hand corner next to the save button.    
 * Horizontal Swipe: Moves the cursor in the text field.  
 
 ### Set an Icon for the Search Action
@@ -82,10 +86,10 @@ You can add a new search action by tapping the "+" button on the top right hand 
 You can set an icon for the search action by tapping the black rectangle on the top of the screen. 
 * Photo Library: You can select an icon from your photo collection.  
 * Image URL: Copy an URL of the image you like, and paste it here to get the image from the internet.  
-* App Store Link: You can set the icon of an app from the App Store as the icon of the Search Action. Please see below to know how.  
+* App Store Link: You can set the icon of an app from the App Store as the icon of the Search Action. Please see below to know how. You may either paste the url you copied from the App Store, or just type in a search term you'd like to search on the App Store.    
 * Load Icons: Use one of the icons of existing search actions.  
 
-#### How to Get the Icon of an App?
+#### How to Get the Icon of an App from the App Store?
 ![appStore01](http://i.imgur.com/YseMwfn.png)  
 ![appStore02](http://i.imgur.com/EeDqBJM.png)  
 In the app page you like in the App Store, press the share button. Then, press the copy link button on the share sheet.  
@@ -97,9 +101,9 @@ The link would look like this:
 
 ### URL Template
 You may use your own URL for the search action, or choose one of the templates if you are not sure.  
-![temp01](http://i.imgur.com/BjvZISY.png)  
+![temp01](http://i.imgur.com/GPjpeld.png)  
 
-Please either tap twice fast in blank area of the scene above, or press the Templates button on the bottom to see the URL Templates screen.  Also, press the list button on the top right hand corner next to the save button to call the teamplates screen.  
+Please either tap twice fast in blank area of the scene above, or press the list button on the top right hand corner next to the save button to use the URL Templates screen.  If you are using an iPhone, you can right-edge swipe to do the same thing.    
 URL Templates will be displayed automatically when you are creating a new search action.  
 
 ![temp02](http://i.imgur.com/AwGWWoX.png)  
@@ -124,8 +128,11 @@ The plus sign represents a white space which is very useful when manipulating UR
 Peek & Pop and Quick Action is supported on the 3D Touch-Enabled devices.  
 You can Peek the search result by pressing hard on a search action.  If you press harder, the search result will Pop into the full screen search result.  
 ![PeeknPop](http://i.imgur.com/NNnhOlA.jpeg)  
-Quick Actions are accessible by pressing hard the app icon from the home screen. You can choose the quick actions from the side menu.  
-![QuickAction](http://i.imgur.com/xDtXp1t.jpeg) 
+Quick Actions are accessible by pressing hard the app icon from the home screen. You can choose upto 3 quick actions from the side menu.  
+![QuickAction](http://i.imgur.com/cJOr0oY.jpeg) 
+
+## Today Widget
+Some of the Search Actions you use in Search Center app will be displayed in an orderly fashion as many as possible. When you tap on one of the shortcuts, you will be presented with a text field where you can type in some search term.  
 
 ## URL Scheme
 If you use Launch Center or Luancher, or an similar app, you may use `searchcenter:///`.
