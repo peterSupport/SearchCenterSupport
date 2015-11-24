@@ -1,4 +1,4 @@
-# Search Center 1.6(Editing)
+# Search Center 1.6
 
 한국어를 사용하신다면 아래에서 한국어 버전을 선택해 주세요.  
 [한국어 버전](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme16.md)  
@@ -42,6 +42,12 @@ Swipe Left: Clears the search term text field if side menu is not displayed.
 Swipe Right: Brings the text from either clipboard or the search history, if search field is empty.  
 Left-Edge Swipe: Brings the left side menu. You may use the button on the top left hand corner to do the same thing.  
 Right-Edge Swipe: Brings the search history.  
+
+#### Search History
+You may use the following gestures to bring up the search history screen.  
+1. Right-Edge Swipe  
+2. the Button on the left side of the suggestions bar  
+3. Double tapping on the search action area when   Suggestion is off.  
 
 ### Done Button on the Keyboard
 Done Button on the keyboard launches either the default search action or the continuous search action. You can set which on the side menu.  

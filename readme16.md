@@ -1,4 +1,4 @@
-# Search Center 1.6(작성중)
+# Search Center 1.6
 
 If you can't read Korean, Please follow the link below to get support in English.  
 [Link](https://github.com/peterSupport/SearchCenterSupport/blob/master/readme16Base.md)  
@@ -43,6 +43,10 @@ If you can't read Korean, Please follow the link below to get support in English
 왼쪽 모서리 스와이프: 메뉴를 불러옵니다. 상단 좌측의 버튼을 사용해도 됩니다.  
 오른쪽 모서리 스와이프: 지난 검색어 목록을 불러옵니다.  
 
+#### 지난 검색어 목록 불러오는 방법
+1. 오른쪽 모서리 스와이프
+2. 추천 검색어 막대 왼쪽 버튼
+3. 추천 검색어 막대가 없는 경우 검색 액션 영역 더블탭
 
 ### 완료 버튼
 키보드의 완료 버튼은 두 가지 기능 중 하나를 할 수 있습니다.  
