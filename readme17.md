@@ -1,3 +1,3 @@
 # Search Center 1.7
 
-Help is Not Available Yet.
+한글 버전 테스트
